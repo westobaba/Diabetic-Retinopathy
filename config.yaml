@@ -1,0 +1,15 @@
+data:
+  zip_path: "C:\\Users\\SKRIMGADGETS\\Downloads\\archive.zip"
+  extract_dir: "data/retina_dataset"
+  img_size: 224
+  batch_size: 16
+  train_split: 0.8
+  augment: True
+
+training:
+  epochs: 20
+  lr: 0.0001
+  num_classes: 5
+  model_name: "resnet18"
+  save_path: "outputs/retina_classifier.pth"
+  fine_tune: True
