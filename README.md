@@ -82,7 +82,7 @@ Copy code
 
 ### Setup
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/westobaba/Diabetic-Retinopathy
 cd Diabetic-Retinopathy
 python -m venv venv
 # Activate virtual environment
